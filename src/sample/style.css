@@ -1,0 +1,50 @@
+.root{
+    -fx-background-color: #34495e;
+}
+
+.button{
+    -fx-background-color: #e67e22;
+    -fx-background-radius: 40px;
+    -fx-font-family: Verdana;
+    -fx-text-fill: #ecf0f1;
+}
+.button:hover{
+    -fx-background-color: #a85421;
+}
+.radio-button .radio{
+    -fx-border-width: 1px;
+    -fx-background-color: #e67e22;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+}
+
+.text-field{
+    -fx-background-color: #e67e22;
+    -fx-prompt-text-fill: #ecf0f1;
+    -fx-background-radius: 40px;
+    -fx-font-family: Verdana;
+    -fx-text-fill: #ecf0f1;
+
+}
+.password-field {
+    -fx-background-color: #e67e22;
+    -fx-prompt-text-fill: #ecf0f1;
+    -fx-background-radius: 40px;
+    -fx-font-family: Verdana;
+    -fx-text-fill: #ecf0f1;
+}
+.label{
+    -fx-font-size: 26px;
+    -fx-font-family: Verdana;
+    -fx-background-radius: 40px;
+    -fx-text-fill: #ecf0f1;
+}
+#exit{
+    -fx-background-color: #c0392b;
+    -fx-background-radius: 40px;
+    -fx-font-family: Verdana;
+    -fx-text-fill: #ecf0f1;
+}
+#exit:hover{
+    -fx-background-color: #982b26;
+}

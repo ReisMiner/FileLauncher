@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.chooserController">
+  <children>
+    <Button fx:id="add" layoutX="344.0" layoutY="359.0" minHeight="16.0" mnemonicParsing="false" onAction="#chooserHandler" prefHeight="23.0" prefWidth="133.0" text="Add new Element" />
+    <Button fx:id="p0" layoutX="39.0" layoutY="43.0" mnemonicParsing="false" onAction="#chooseP0" text="p0" />
+    <Button id="p5" fx:id="p4" layoutX="39.0" layoutY="97.0" mnemonicParsing="false" onAction="#chooseP4" text="p4" />
+    <Button id="p9" fx:id="p8" layoutX="39.0" layoutY="159.0" mnemonicParsing="false" onAction="#chooseP8" text="p8" />
+    <Button id="p13" fx:id="p12" layoutX="39.0" layoutY="222.0" mnemonicParsing="false" onAction="#chooseP12" text="p12" />
+    <Button id="p14" fx:id="p13" layoutX="198.0" layoutY="222.0" mnemonicParsing="false" onAction="#chooseP13" text="p13" />
+    <Button fx:id="p14" layoutX="352.0" layoutY="222.0" mnemonicParsing="false" onAction="#chooseP14" text="p14" />
+    <Button fx:id="p15" layoutX="493.0" layoutY="222.0" mnemonicParsing="false" onAction="#chooseP15" text="p15" />
+    <Button id="p2" fx:id="p1" layoutX="198.0" layoutY="43.0" mnemonicParsing="false" onAction="#chooseP1" text="p1" />
+    <Button id="p6" fx:id="p5" layoutX="198.0" layoutY="97.0" mnemonicParsing="false" onAction="#chooseP5" text="p5" />
+    <Button id="p10" fx:id="p9" layoutX="198.0" layoutY="159.0" mnemonicParsing="false" onAction="#chooseP9" text="p9" />
+    <Button id="p3" fx:id="p2" layoutX="352.0" layoutY="43.0" mnemonicParsing="false" onAction="#chooseP2" text="p2" />
+    <Button id="p7" fx:id="p6" layoutX="352.0" layoutY="97.0" mnemonicParsing="false" onAction="#chooseP6" text="p6" />
+    <Button id="p11" fx:id="p10" layoutX="352.0" layoutY="159.0" mnemonicParsing="false" onAction="#chooseP10" text="p10" />
+    <Button id="p4" fx:id="p3" layoutX="493.0" layoutY="43.0" mnemonicParsing="false" onAction="#chooseP3" text="p3" />
+    <Button id="p8" fx:id="p7" layoutX="493.0" layoutY="97.0" mnemonicParsing="false" onAction="#chooseP7" text="p7" />
+    <Button id="p12" fx:id="p11" layoutX="493.0" layoutY="159.0" mnemonicParsing="false" onAction="#chooseP11" text="p11" />
+    <Button id="exit" fx:id="exit" layoutX="494.0" layoutY="359.0" mnemonicParsing="false" onAction="#chooseExit" prefHeight="22.0" text="Exit" />
+    <TextField fx:id="name_field" layoutX="18.0" layoutY="359.0" />
+    <Button fx:id="name" defaultButton="false" disable="false" focusTraversable="false" layoutX="179.0" layoutY="359.0" mnemonicParsing="false" onAction="#giveName" prefHeight="23.0" prefWidth="148.0" text="Change Name Step 1" visible="true" />
+    <Label fx:id="name_label" layoutX="20.0" layoutY="324.0" text="Enter current button name" />
+    <Button fx:id="change" layoutX="179.0" layoutY="360.0" mnemonicParsing="false" onAction="#giveName2" prefHeight="21.0" prefWidth="133.0" text="Change Name" visible="false" />
+    <Button fx:id="load" layoutX="18.0" layoutY="300.0" mnemonicParsing="false" onAction="#loadNames" prefHeight="22.0" prefWidth="96.0" text="Load Names" />
+    <Button fx:id="clear" layoutX="142.0" layoutY="299.0" mnemonicParsing="false" onAction="#clearFiles" prefHeight="22.0" prefWidth="96.0" text="Clear all Data" />
+  </children>
+</AnchorPane>
